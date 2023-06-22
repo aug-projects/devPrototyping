@@ -5,8 +5,8 @@ public class Zoo {
         a.add(new Animal("Dog", "omnivore"));
         a.add(new Animal("Lion", "carnivore"));
 
-        for (Animal animal : animals) {
-            animal.getSafety();
+        for (a1 animal : a) {
+            a1.getSafety();
         }
     }
 }
