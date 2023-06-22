@@ -6,7 +6,7 @@ public class Zoo {
         animals.add(new Animal("Lion", DietType.CARNIVORE));
 
         for (Animal animals : animal) {
-            animal.getSafety();
+            animal.toString();
         }
     }
 }
